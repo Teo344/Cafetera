@@ -146,78 +146,90 @@ void prepararCafe() {
 
 // Función para seleccionar el azúcar
 void seleccionarAzucar() {
-  lcd.clear();  // Borra toda la pantalla al inicio
+  lcd.clear();  
   lcd.setCursor(0, 0);
   lcd.print("Cantidad Azucar");
 
-  // Bucle para esperar la confirmación
   while (true) {
     lcd.setCursor(0, 1);
-    lcd.print("                ");  // Borra la línea
+    lcd.print("                ");  
     lcd.setCursor(0, 1);
 
-    // Muestra los niveles de azúcar con círculos
     for (int i = 0; i < cantidadAzucarElegida; i++) {
-      lcd.print("●");  // Representación del nivel de azúcar
+      lcd.print("●");  
     }
 
-    // Aumenta el nivel de azúcar con el botón derecho
     if (digitalRead(BUTTON_DERECHA) == HIGH) {
       if (cantidadAzucarElegida < 4) {
         cantidadAzucarElegida++;
-        delay(200);  // Pausa para evitar rebotes
+        delay(200);  
       }
     }
 
-    // Disminuye el nivel de azúcar con el botón izquierdo
     if (digitalRead(BUTTON_IZQUIERDA) == HIGH) {
-      if (cantidadAzucarElegida > 1) {
+      if (cantidadAzucarElegida > 0) {  // Permitir bajar a 0
         cantidadAzucarElegida--;
-        delay(200);  // Pausa para evitar rebotes
+        delay(200);  
       }
     }
 
-    // Si el usuario confirma, empieza la preparación
     if (digitalRead(BUTTON_CONFIRMACION) == HIGH) {
-      delay(300);  // Evitar rebote
-      prepararCafeReal();  // Empieza a preparar el café
-      return;  // Sale de la función
+      delay(300);  
+      prepararCafeReal();  
+      return;  
     }
 
-    // Si el usuario quiere regresar, vuelve al menú de café
     if (digitalRead(BUTTON_REGRESO) == HIGH) {
-      delay(300);      // Pausa para evitar rebotes
-      prepararCafe();  // Regresa a la selección de café
-      return;          // Sale de la función
+      delay(300);    
+      prepararCafe();  
+      return;         
     }
 
-    delay(100);  // Pausa pequeña para estabilidad
+    delay(100);  
   }
 }
 
+
 // Función para preparar el café
 void prepararCafeReal() {
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("Verificando...");
+
+  // Verificar si hay suficiente agua y azúcar antes de continuar
+  if (nivelAzucar < cantidadAzucarElegida) {
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print("Azucar insuf.");
+    delay(2000);
+    return;
+  }
+
+  int aguaNecesaria = 0;
+  switch(opcion){
+    case 1: aguaNecesaria = 2; break;
+    case 2: aguaNecesaria = 1; break;
+    case 3: aguaNecesaria = 3; break;
+    case 4: aguaNecesaria = 2; break;
+  }
+
+  if (nivelAgua < aguaNecesaria) {
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print("Agua insuf.");
+    delay(2000);
+    return;
+  }
+
+  // Si hay suficiente agua y azúcar, continuar con la preparación
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("Preparando... ");
 
   delay(2000);  // Simula el proceso de preparación
 
-  nivelAzucar = nivelAzucar - cantidadAzucarElegida;
-  switch(opcion){
-    case 1:
-    nivelAgua= nivelAgua - 2;
-    break;
-    case 2:
-    nivelAgua= nivelAgua - 1;
-    break;
-    case 3:
-    nivelAgua= nivelAgua - 3;
-    break;
-    case 4:
-    nivelAgua= nivelAgua - 2;
-    break;
-  }
+  nivelAzucar -= cantidadAzucarElegida;
+  nivelAgua -= aguaNecesaria;
 
   actualizarNivel();
 
@@ -234,6 +246,7 @@ void prepararCafeReal() {
   lcd.setCursor(0, 1);
   lcd.print("Elija_Opcion");
 }
+
 
 
 
