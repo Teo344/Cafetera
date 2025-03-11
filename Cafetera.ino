@@ -74,13 +74,16 @@ void setup() {
 }
 
 void loop() {
+  while (true) {  
+    if (digitalRead(BUTTON_CONFIRMACION) == HIGH) {
+      delay(300);  
+      prepararCafe();  // Llamamos a la función para elegir el café correctamente
+    }
 
-  if (digitalRead(BUTTON_CONFIRMACION) == HIGH) {
-    prepararCafe();
-  }
-
-  if (digitalRead(SWITCH_RECARGA) == HIGH) {
-    modoConfiguracion();
+    if (digitalRead(SWITCH_RECARGA) == HIGH) {
+      delay(300);
+      modoConfiguracion();
+    }
   }
 }
 

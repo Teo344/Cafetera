@@ -1284,7 +1284,7 @@ START GROUP
 LOAD c:/users/dalex/appdata/local/arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libnosys.a
 END GROUP
                 0x20005000                PROVIDE (__msp_init, (ORIGIN (ram) + 0x5000))
-                0x08001580                PROVIDE (__exc_reset, __start__)
+                0x0800158c                PROVIDE (__exc_reset, __start__)
 
 .text           0x08000000     0x4090
                 0x08000000                __text_start__ = .
@@ -1316,281 +1316,280 @@ END GROUP
                 0x08000588      0x160 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
                 0x08000588                modoConfiguracion()
  .text._Z4loopv
-                0x080006e8       0x24 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
+                0x080006e8       0x30 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
                 0x080006e8                loop()
  .text.startup._GLOBAL__sub_I_matrixAzucar
-                0x0800070c       0x44 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
+                0x08000718       0x44 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
  .text.exit._GLOBAL__sub_D_matrixAzucar
-                0x08000750       0x1c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
+                0x0800075c       0x1c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
  .text._ZN13LiquidCrystalC2Ehhhhhh
-                0x0800076c       0x3c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x0800076c                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
-                0x0800076c                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x08000778       0x3c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x08000778                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                0x08000778                LiquidCrystal::LiquidCrystal(unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
  .text._ZN13LiquidCrystal11pulseEnableEv
-                0x080007a8       0x54 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x080007a8                LiquidCrystal::pulseEnable()
+                0x080007b4       0x54 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x080007b4                LiquidCrystal::pulseEnable()
  .text._ZN13LiquidCrystal10write4bitsEh
-                0x080007fc       0x28 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x080007fc                LiquidCrystal::write4bits(unsigned char)
+                0x08000808       0x28 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x08000808                LiquidCrystal::write4bits(unsigned char)
  .text._ZN13LiquidCrystal10write8bitsEh
-                0x08000824       0x28 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x08000824                LiquidCrystal::write8bits(unsigned char)
+                0x08000830       0x28 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x08000830                LiquidCrystal::write8bits(unsigned char)
  .text._ZN13LiquidCrystal4sendEhh
-                0x0800084c       0x3e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x0800084c                LiquidCrystal::send(unsigned char, unsigned char)
+                0x08000858       0x3e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x08000858                LiquidCrystal::send(unsigned char, unsigned char)
  .text._ZN13LiquidCrystal7commandEh
-                0x0800088a        0x6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x0800088a                LiquidCrystal::command(unsigned char)
+                0x08000896        0x6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x08000896                LiquidCrystal::command(unsigned char)
  .text._ZN13LiquidCrystal5clearEv
-                0x08000890       0x12 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x08000890                LiquidCrystal::clear()
- *fill*         0x080008a2        0x2 
+                0x0800089c       0x12 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x0800089c                LiquidCrystal::clear()
+ *fill*         0x080008ae        0x2 
  .text._ZN13LiquidCrystal9setCursorEhh
-                0x080008a4       0x40 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x080008a4                LiquidCrystal::setCursor(unsigned char, unsigned char)
+                0x080008b0       0x40 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x080008b0                LiquidCrystal::setCursor(unsigned char, unsigned char)
  .text._ZN13LiquidCrystal7displayEv
-                0x080008e4       0x14 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x080008e4                LiquidCrystal::display()
+                0x080008f0       0x14 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x080008f0                LiquidCrystal::display()
  .text._ZN13LiquidCrystal5beginEhhh
-                0x080008f8      0x112 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x080008f8                LiquidCrystal::begin(unsigned char, unsigned char, unsigned char)
+                0x08000904      0x112 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x08000904                LiquidCrystal::begin(unsigned char, unsigned char, unsigned char)
  .text._ZN13LiquidCrystal5writeEh
-                0x08000a0a        0xc C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
-                0x08000a0a                LiquidCrystal::write(unsigned char)
+                0x08000a16        0xc C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+                0x08000a16                LiquidCrystal::write(unsigned char)
  .text._ZN10MD_MAX72XX19setModuleParametersENS_12moduleType_tE
-                0x08000a16       0x5a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000a16                MD_MAX72XX::setModuleParameters(MD_MAX72XX::moduleType_t)
+                0x08000a22       0x5a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000a22                MD_MAX72XX::setModuleParameters(MD_MAX72XX::moduleType_t)
  .text._ZN10MD_MAX72XXC2ENS_12moduleType_tEah
-                0x08000a70       0x28 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000a70                MD_MAX72XX::MD_MAX72XX(MD_MAX72XX::moduleType_t, signed char, unsigned char)
-                0x08000a70                MD_MAX72XX::MD_MAX72XX(MD_MAX72XX::moduleType_t, signed char, unsigned char)
+                0x08000a7c       0x28 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000a7c                MD_MAX72XX::MD_MAX72XX(MD_MAX72XX::moduleType_t, signed char, unsigned char)
+                0x08000a7c                MD_MAX72XX::MD_MAX72XX(MD_MAX72XX::moduleType_t, signed char, unsigned char)
  .text._ZN10MD_MAX72XXD2Ev
-                0x08000a98       0x1e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000a98                MD_MAX72XX::~MD_MAX72XX()
-                0x08000a98                MD_MAX72XX::~MD_MAX72XX()
+                0x08000aa4       0x1e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000aa4                MD_MAX72XX::~MD_MAX72XX()
+                0x08000aa4                MD_MAX72XX::~MD_MAX72XX()
  .text._ZN10MD_MAX72XX15controlHardwareEhNS_16controlRequest_tEi
-                0x08000ab6       0x64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000ab6                MD_MAX72XX::controlHardware(unsigned char, MD_MAX72XX::controlRequest_t, int)
+                0x08000ac2       0x64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000ac2                MD_MAX72XX::controlHardware(unsigned char, MD_MAX72XX::controlRequest_t, int)
  .text._ZN10MD_MAX72XX14spiClearBufferEv
-                0x08000b1a        0xc C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000b1a                MD_MAX72XX::spiClearBuffer()
- *fill*         0x08000b26        0x2 
+                0x08000b26        0xc C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000b26                MD_MAX72XX::spiClearBuffer()
+ *fill*         0x08000b32        0x2 
  .text._ZN10MD_MAX72XX7spiSendEv
-                0x08000b28       0xb4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000b28                MD_MAX72XX::spiSend()
+                0x08000b34       0xb4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000b34                MD_MAX72XX::spiSend()
  .text._ZN10MD_MAX72XX14flushBufferAllEv
-                0x08000bdc       0x82 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000bdc                MD_MAX72XX::flushBufferAll()
+                0x08000be8       0x82 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000be8                MD_MAX72XX::flushBufferAll()
  .text._ZN10MD_MAX72XX14controlLibraryENS_16controlRequest_tEi
-                0x08000c5e       0x2c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000c5e                MD_MAX72XX::controlLibrary(MD_MAX72XX::controlRequest_t, int)
+                0x08000c6a       0x2c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000c6a                MD_MAX72XX::controlLibrary(MD_MAX72XX::controlRequest_t, int)
  .text._ZN10MD_MAX72XX7controlEhhNS_16controlRequest_tEi
-                0x08000c8a       0x4a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000c8a                MD_MAX72XX::control(unsigned char, unsigned char, MD_MAX72XX::controlRequest_t, int)
+                0x08000c96       0x4a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000c96                MD_MAX72XX::control(unsigned char, unsigned char, MD_MAX72XX::controlRequest_t, int)
  .text._ZN10MD_MAX72XX7controlENS_16controlRequest_tEi
-                0x08000cd4       0x16 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000cd4                MD_MAX72XX::control(MD_MAX72XX::controlRequest_t, int)
- *fill*         0x08000cea        0x2 
+                0x08000ce0       0x16 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000ce0                MD_MAX72XX::control(MD_MAX72XX::controlRequest_t, int)
+ *fill*         0x08000cf6        0x2 
  .text._ZN10MD_MAX72XX5beginEv
-                0x08000cec       0xb8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000cec                MD_MAX72XX::begin()
+                0x08000cf8       0xb8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000cf8                MD_MAX72XX::begin()
  .text._ZN10MD_MAX72XX11flushBufferEh
-                0x08000da4       0x64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
-                0x08000da4                MD_MAX72XX::flushBuffer(unsigned char)
+                0x08000db0       0x64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+                0x08000db0                MD_MAX72XX::flushBuffer(unsigned char)
  .text._ZN10MD_MAX72XX18setFontInfoDefaultEv
-                0x08000e08       0x1a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
-                0x08000e08                MD_MAX72XX::setFontInfoDefault()
+                0x08000e14       0x1a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
+                0x08000e14                MD_MAX72XX::setFontInfoDefault()
  .text._ZN10MD_MAX72XX12getFontWidthEv
-                0x08000e22       0x2c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
-                0x08000e22                MD_MAX72XX::getFontWidth()
+                0x08000e2e       0x2c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
+                0x08000e2e                MD_MAX72XX::getFontWidth()
  .text._ZN10MD_MAX72XX12loadFontInfoEv
-                0x08000e4e       0x60 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
-                0x08000e4e                MD_MAX72XX::loadFontInfo()
- *fill*         0x08000eae        0x2 
+                0x08000e5a       0x60 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
+                0x08000e5a                MD_MAX72XX::loadFontInfo()
+ *fill*         0x08000eba        0x2 
  .text._ZN10MD_MAX72XX7setFontEPKh
-                0x08000eb0       0x20 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
-                0x08000eb0                MD_MAX72XX::setFont(unsigned char const*)
+                0x08000ebc       0x20 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
+                0x08000ebc                MD_MAX72XX::setFont(unsigned char const*)
  .text._ZN10MD_MAX72XX5clearEhh
-                0x08000ed0       0x40 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
-                0x08000ed0                MD_MAX72XX::clear(unsigned char, unsigned char)
+                0x08000edc       0x40 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
+                0x08000edc                MD_MAX72XX::clear(unsigned char, unsigned char)
  .text._ZN10MD_MAX72XX8setPointEhtb
-                0x08000f10      0x152 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
-                0x08000f10                MD_MAX72XX::setPoint(unsigned char, unsigned short, bool)
+                0x08000f1c      0x152 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
+                0x08000f1c                MD_MAX72XX::setPoint(unsigned char, unsigned short, bool)
  .text._ZL12waitSpiTxEndP7spi_dev
-                0x08001062       0x10 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x0800106e       0x10 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
  .text._ZL11disable_pwmPK14stm32_pin_info
-                0x08001072       0x10 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
- *fill*         0x08001082        0x2 
+                0x0800107e       0x10 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+ *fill*         0x0800108e        0x2 
  .text._ZL15dev_to_spi_pinsP7spi_dev.isra.8
-                0x08001084       0x1c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001090       0x1c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
  .text._ZL15configure_gpiosP7spi_devb
-                0x080010a0       0x84 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x080010ac       0x84 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
  .text._ZL19determine_baud_rateP7spi_devm.isra.9
-                0x08001124       0x3c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001130       0x3c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
  .text._ZN8SPIClassC2Em
-                0x08001160       0xa8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x08001160                SPIClass::SPIClass(unsigned long)
-                0x08001160                SPIClass::SPIClass(unsigned long)
+                0x0800116c       0xa8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x0800116c                SPIClass::SPIClass(unsigned long)
+                0x0800116c                SPIClass::SPIClass(unsigned long)
  .text._ZN8SPIClass14updateSettingsEv
-                0x08001208       0x24 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x08001208                SPIClass::updateSettings()
+                0x08001214       0x24 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001214                SPIClass::updateSettings()
  .text._ZN8SPIClass5beginEv
-                0x0800122c       0x24 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x0800122c                SPIClass::begin()
+                0x08001238       0x24 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001238                SPIClass::begin()
  .text._ZN8SPIClass3endEv
-                0x08001250       0x38 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x08001250                SPIClass::end()
+                0x0800125c       0x38 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x0800125c                SPIClass::end()
  .text._ZN8SPIClass15setClockDividerEm
-                0x08001288       0x18 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x08001288                SPIClass::setClockDivider(unsigned long)
+                0x08001294       0x18 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001294                SPIClass::setClockDivider(unsigned long)
  .text._ZN8SPIClass11setBitOrderE8BitOrder
-                0x080012a0       0x18 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x080012a0                SPIClass::setBitOrder(BitOrder)
+                0x080012ac       0x18 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x080012ac                SPIClass::setBitOrder(BitOrder)
  .text._ZN8SPIClass11setDataSizeEm
-                0x080012b8       0x30 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x080012b8                SPIClass::setDataSize(unsigned long)
+                0x080012c4       0x30 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x080012c4                SPIClass::setDataSize(unsigned long)
  .text._ZN8SPIClass11setDataModeEh
-                0x080012e8       0x1a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x080012e8                SPIClass::setDataMode(unsigned char)
+                0x080012f4       0x1a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x080012f4                SPIClass::setDataMode(unsigned char)
  .text._ZN8SPIClass16beginTransactionEh11SPISettings
-                0x08001302       0x46 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x08001302                SPIClass::beginTransaction(unsigned char, SPISettings)
+                0x0800130e       0x46 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x0800130e                SPIClass::beginTransaction(unsigned char, SPISettings)
  .text._ZN8SPIClass14endTransactionEv
-                0x08001348        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x08001348                SPIClass::endTransaction()
+                0x08001354        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001354                SPIClass::endTransaction()
  .text._ZNK8SPIClass8transferEh
-                0x0800134a       0x1a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
-                0x0800134a                SPIClass::transfer(unsigned char) const
+                0x08001356       0x1a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001356                SPIClass::transfer(unsigned char) const
  .text.startup._GLOBAL__sub_I__ZN8SPIClassC2Em
-                0x08001364        0xc C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+                0x08001370        0xc C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
  .text._Z9boardInitv
-                0x08001370       0x30 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
-                0x08001370                boardInit()
+                0x0800137c       0x30 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
+                0x0800137c                boardInit()
  .text.startup._GLOBAL__sub_I__Z9boardInitv
-                0x080013a0       0x48 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
+                0x080013ac       0x48 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
  .text._ZL18adc_default_configP7adc_dev
-                0x080013e8       0x1c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
+                0x080013f4       0x1c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
  .text._ZL20timer_default_configP9timer_dev
-                0x08001404       0x9e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
- *fill*         0x080014a2        0x2 
+                0x08001410       0x9e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
+ *fill*         0x080014ae        0x2 
  .text._Z4initv
-                0x080014a4       0xa8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
-                0x080014a4                init()
+                0x080014b0       0xa8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
+                0x080014b0                init()
  .text._ZN6wirish4priv15board_reset_pllEv
-                0x0800154c        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
-                0x0800154c                wirish::priv::board_reset_pll()
+                0x08001558        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
+                0x08001558                wirish::priv::board_reset_pll()
  .text._ZN6wirish4priv28board_setup_clock_prescalersEv
-                0x0800154e       0x26 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
-                0x0800154e                wirish::priv::board_setup_clock_prescalers()
+                0x0800155a       0x26 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
+                0x0800155a                wirish::priv::board_setup_clock_prescalers()
  .text._ZN6wirish4priv16board_setup_gpioEv
-                0x08001574        0x4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
-                0x08001574                wirish::priv::board_setup_gpio()
+                0x08001580        0x4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
+                0x08001580                wirish::priv::board_setup_gpio()
  .text._ZN6wirish4priv15board_setup_usbEv
-                0x08001578        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
-                0x08001578                wirish::priv::board_setup_usb()
+                0x08001584        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
+                0x08001584                wirish::priv::board_setup_usb()
  .text._ZN6wirish4priv11series_initEv
-                0x0800157a        0x4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
-                0x0800157a                wirish::priv::series_init()
- *fill*         0x0800157e        0x2 
- .text          0x08001580       0x10 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start.S.o
-                0x08001580                __start__
- .text.start_c  0x08001590       0x64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start_c.c.o
-                0x08001590                start_c
- .text._sbrk    0x080015f4       0x44 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
-                0x080015f4                _sbrk
- .text._exit    0x08001638        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
-                0x08001638                _exit
+                0x08001586        0x4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
+                0x08001586                wirish::priv::series_init()
+ *fill*         0x0800158a        0x2 
+ .text          0x0800158c       0x10 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start.S.o
+                0x0800158c                __start__
+ .text.start_c  0x0800159c       0x64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start_c.c.o
+                0x0800159c                start_c
+ .text._sbrk    0x08001600       0x44 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
+                0x08001600                _sbrk
+ .text._exit    0x08001644        0x2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
+                0x08001644                _exit
  .text.rb_full_count
-                0x0800163a       0x22 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+                0x08001646       0x22 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
  .text._ZN14HardwareSerial4readEv
-                0x0800165c       0x3a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
-                0x0800165c                HardwareSerial::read()
+                0x08001668       0x3a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+                0x08001668                HardwareSerial::read()
  .text._ZN14HardwareSerial9availableEv
-                0x08001696        0xc C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
-                0x08001696                HardwareSerial::available()
+                0x080016a2        0xc C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+                0x080016a2                HardwareSerial::available()
  .text._ZN14HardwareSerial4peekEv
-                0x080016a2       0x22 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
-                0x080016a2                HardwareSerial::peek()
+                0x080016ae       0x22 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+                0x080016ae                HardwareSerial::peek()
  .text._ZN14HardwareSerial5flushEv
-                0x080016c4       0x1a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
-                0x080016c4                HardwareSerial::flush()
+                0x080016d0       0x1a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+                0x080016d0                HardwareSerial::flush()
  .text._ZN14HardwareSerial5writeEh
-                0x080016de       0x1e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
-                0x080016de                HardwareSerial::write(unsigned char)
+                0x080016ea       0x1e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+                0x080016ea                HardwareSerial::write(unsigned char)
  .text._ZN14HardwareSerialC2EP9usart_devhh
-                0x080016fc       0x1c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
-                0x080016fc                HardwareSerial::HardwareSerial(usart_dev*, unsigned char, unsigned char)
-                0x080016fc                HardwareSerial::HardwareSerial(usart_dev*, unsigned char, unsigned char)
+                0x08001708       0x1c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+                0x08001708                HardwareSerial::HardwareSerial(usart_dev*, unsigned char, unsigned char)
+                0x08001708                HardwareSerial::HardwareSerial(usart_dev*, unsigned char, unsigned char)
  .text._ZN5Print5writeEPKvm
-                0x08001718       0x20 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
-                0x08001718                Print::write(void const*, unsigned long)
+                0x08001724       0x20 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+                0x08001724                Print::write(void const*, unsigned long)
  .text._ZN5Print5writeEPKc
-                0x08001738       0x1e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
-                0x08001738                Print::write(char const*)
+                0x08001744       0x1e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+                0x08001744                Print::write(char const*)
  .text._ZN5Print5printEc
-                0x08001756        0xa C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
-                0x08001756                Print::print(char)
+                0x08001762        0xa C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+                0x08001762                Print::print(char)
  .text._ZN5Print5printEPKc
-                0x08001760        0xa C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
-                0x08001760                Print::print(char const*)
+                0x0800176c        0xa C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+                0x0800176c                Print::print(char const*)
  .text._ZN5Print11printNumberEyh
-                0x0800176a       0x84 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
-                0x0800176a                Print::printNumber(unsigned long long, unsigned char)
+                0x08001776       0x84 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+                0x08001776                Print::printNumber(unsigned long long, unsigned char)
  .text._ZN5Print5printExi
-                0x080017ee       0x32 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
-                0x080017ee                Print::print(long long, int)
+                0x080017fa       0x32 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+                0x080017fa                Print::print(long long, int)
  .text._ZN5Print5printEii
-                0x08001820       0x12 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
-                0x08001820                Print::print(int, int)
+                0x0800182c       0x12 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+                0x0800182c                Print::print(int, int)
  .text.adc_init
-                0x08001832       0x14 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
-                0x08001832                adc_init
+                0x0800183e       0x14 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
+                0x0800183e                adc_init
  .text.adc_set_extsel
-                0x08001846       0x12 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
-                0x08001846                adc_set_extsel
+                0x08001852       0x12 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
+                0x08001852                adc_set_extsel
  .text.adc_set_sample_rate
-                0x08001858       0x30 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
-                0x08001858                adc_set_sample_rate
+                0x08001864       0x30 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
+                0x08001864                adc_set_sample_rate
  .text.__irq_adc
-                0x08001888       0x50 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
-                0x08001888                __irq_adc
+                0x08001894       0x50 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
+                0x08001894                __irq_adc
  .text.adc_calibrate
-                0x080018d8       0x24 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
-                0x080018d8                adc_calibrate
+                0x080018e4       0x24 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
+                0x080018e4                adc_calibrate
  .text.adc_set_prescaler
-                0x080018fc        0x8 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
-                0x080018fc                adc_set_prescaler
+                0x08001908        0x8 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
+                0x08001908                adc_set_prescaler
  .text.adc_foreach
-                0x08001904       0x1c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
-                0x08001904                adc_foreach
+                0x08001910       0x1c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
+                0x08001910                adc_foreach
  .text.adc_enable_single_swstart
-                0x08001920       0x36 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
-                0x08001920                adc_enable_single_swstart
+                0x0800192c       0x36 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
+                0x0800192c                adc_enable_single_swstart
  .text.dma_irq_handler
-                0x08001956       0x1c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
- *fill*         0x08001972        0x2 
+                0x08001962       0x1c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+ *fill*         0x0800197e        0x2 
  .text.__irq_dma1_channel1
-                0x08001974       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
-                0x08001974                __irq_dma1_channel1
+                0x08001980       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+                0x08001980                __irq_dma1_channel1
  .text.__irq_dma1_channel2
-                0x08001984       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
-                0x08001984                __irq_dma1_channel2
+                0x08001990       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+                0x08001990                __irq_dma1_channel2
  .text.__irq_dma1_channel3
-                0x08001994       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
-                0x08001994                __irq_dma1_channel3
+                0x080019a0       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+                0x080019a0                __irq_dma1_channel3
  .text.__irq_dma1_channel4
-                0x080019a4       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
-                0x080019a4                __irq_dma1_channel4
+                0x080019b0       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+                0x080019b0                __irq_dma1_channel4
  .text.__irq_dma1_channel5
-                0x080019b4       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
-                0x080019b4                __irq_dma1_channel5
+                0x080019c0       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+                0x080019c0                __irq_dma1_channel5
  .text.__irq_dma1_channel6
-                0x080019c4       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
-                0x080019c4                __irq_dma1_channel6
+                0x080019d0       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+                0x080019d0                __irq_dma1_channel6
  .text.__irq_dma1_channel7
-                0x080019d4       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
-                0x080019d4                __irq_dma1_channel7
- *fill*         0x080019e4        0xc 
+                0x080019e0       0x10 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+                0x080019e0                __irq_dma1_channel7
  .text          0x080019f0       0x60 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exc.S.o)
                 0x080019f0                __exc_nmi
                 0x080019f4                __exc_hardfault
@@ -2482,81 +2481,81 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x6426f
+.debug_info     0x00000000    0x6429a
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000     0x2f8b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
- .debug_info    0x00002f8b     0x212c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
- .debug_info    0x000050b7     0x34b1 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_PZone.cpp.o
- .debug_info    0x00008568     0x464d C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola.cpp.o
- .debug_info    0x0000cbb5     0x2bae C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Blinds.cpp.o
- .debug_info    0x0000f763     0x2bd6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Close.cpp.o
- .debug_info    0x00012339     0x2d0b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Diag.cpp.o
- .debug_info    0x00015044     0x2c6a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Dissolve.cpp.o
- .debug_info    0x00017cae     0x2b3e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Fade.cpp.o
- .debug_info    0x0001a7ec     0x2c05 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Grow.cpp.o
- .debug_info    0x0001d3f1     0x2bf6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_HScroll.cpp.o
- .debug_info    0x0001ffe7     0x2c2e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Mesh.cpp.o
- .debug_info    0x00022c15     0x2b6c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Open.cpp.o
- .debug_info    0x00025781     0x2b9a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Print.cpp.o
- .debug_info    0x0002831b     0x2bea C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Random.cpp.o
- .debug_info    0x0002af05     0x2c8f C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Scan.cpp.o
- .debug_info    0x0002db94     0x2bb8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Slice.cpp.o
- .debug_info    0x0003074c     0x2b72 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Sprite.cpp.o
- .debug_info    0x000332be     0x2c64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_VScroll.cpp.o
- .debug_info    0x00035f22     0x2b1b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Wipe.cpp.o
- .debug_info    0x00038a3d     0x2aaa C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
- .debug_info    0x0003b4e7     0x2712 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_buf.cpp.o
- .debug_info    0x0003dbf9     0x2095 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
- .debug_info    0x0003fc8e     0x23a8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
- .debug_info    0x00042036     0x37d4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
- .debug_info    0x0004580a     0x1170 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
- .debug_info    0x0004697a     0x1409 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
- .debug_info    0x00047d83      0x61e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
- .debug_info    0x000483a1       0xe9 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start.S.o
- .debug_info    0x0004848a      0x176 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start_c.c.o
- .debug_info    0x00048600      0x5cd C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
- .debug_info    0x00048bcd     0x29ea C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
- .debug_info    0x0004b5b7     0x258c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
- .debug_info    0x0004db43      0x526 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(cxxabi-compat.cpp.o)
- .debug_info    0x0004e069      0x79a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
- .debug_info    0x0004e803      0xe4a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
- .debug_info    0x0004f64d      0x6f7 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma.c.o)
- .debug_info    0x0004fd44     0x18b1 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
- .debug_info    0x000515f5       0xcb C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exc.S.o)
- .debug_info    0x000516c0      0xd3c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti.c.o)
- .debug_info    0x000523fc      0x213 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti_f1.c.o)
- .debug_info    0x0005260f      0x128 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(flash.c.o)
- .debug_info    0x00052737      0x715 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio_f1.c.o)
- .debug_info    0x00052e4c      0xc25 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c_f1.c.o)
- .debug_info    0x00053a71      0x5a2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(nvic.c.o)
- .debug_info    0x00054013      0x556 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc.c.o)
- .debug_info    0x00054569      0xb64 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc_f1.c.o)
- .debug_info    0x000550cd      0xa88 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi.c.o)
- .debug_info    0x00055b55      0x794 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi_f1.c.o)
- .debug_info    0x000562e9       0xe0 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(isrs.S.o)
- .debug_info    0x000563c9      0x182 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(systick.c.o)
- .debug_info    0x0005654b     0x197d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(timer.c.o)
- .debug_info    0x00057ec8      0xc32 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart.c.o)
- .debug_info    0x00058afa      0xb89 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_f1.c.o)
- .debug_info    0x00059683      0x595 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_private.c.o)
- .debug_info    0x00059c18      0xd16 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb.c.o)
- .debug_info    0x0005a92e     0x22d2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_cdcacm.c.o)
- .debug_info    0x0005cc00      0x26c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_reg_map.c.o)
- .debug_info    0x0005ce6c      0xddf C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_core.c.o)
- .debug_info    0x0005dc4b      0x3ed C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_init.c.o)
- .debug_info    0x0005e038      0x183 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_mem.c.o)
- .debug_info    0x0005e1bb      0xc88 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_regs.c.o)
- .debug_info    0x0005ee43      0xad2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(util.c.o)
- .debug_info    0x0005f915       0x99 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(main.cpp.o)
- .debug_info    0x0005f9ae      0x1a1 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(new.cpp.o)
- .debug_info    0x0005fb4f      0xc8a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital_f1.cpp.o)
- .debug_info    0x000607d9      0xb0b C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital.cpp.o)
- .debug_info    0x000612e4      0x20c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_math.cpp.o)
- .debug_info    0x000614f0      0xca9 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_shift.cpp.o)
- .debug_info    0x00062199      0x2be C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_time.cpp.o)
- .debug_info    0x00062457       0x33 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(hooks.c.o)
- .debug_info    0x0006248a      0x313 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio.c.o)
- .debug_info    0x0006279d     0x1ad2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c.c.o)
+ .debug_info    0x00000000     0x2fb6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
+ .debug_info    0x00002fb6     0x212c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+ .debug_info    0x000050e2     0x34b1 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_PZone.cpp.o
+ .debug_info    0x00008593     0x464d C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola.cpp.o
+ .debug_info    0x0000cbe0     0x2bae C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Blinds.cpp.o
+ .debug_info    0x0000f78e     0x2bd6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Close.cpp.o
+ .debug_info    0x00012364     0x2d0b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Diag.cpp.o
+ .debug_info    0x0001506f     0x2c6a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Dissolve.cpp.o
+ .debug_info    0x00017cd9     0x2b3e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Fade.cpp.o
+ .debug_info    0x0001a817     0x2c05 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Grow.cpp.o
+ .debug_info    0x0001d41c     0x2bf6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_HScroll.cpp.o
+ .debug_info    0x00020012     0x2c2e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Mesh.cpp.o
+ .debug_info    0x00022c40     0x2b6c C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Open.cpp.o
+ .debug_info    0x000257ac     0x2b9a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Print.cpp.o
+ .debug_info    0x00028346     0x2bea C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Random.cpp.o
+ .debug_info    0x0002af30     0x2c8f C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Scan.cpp.o
+ .debug_info    0x0002dbbf     0x2bb8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Slice.cpp.o
+ .debug_info    0x00030777     0x2b72 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Sprite.cpp.o
+ .debug_info    0x000332e9     0x2c64 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_VScroll.cpp.o
+ .debug_info    0x00035f4d     0x2b1b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Wipe.cpp.o
+ .debug_info    0x00038a68     0x2aaa C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+ .debug_info    0x0003b512     0x2712 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_buf.cpp.o
+ .debug_info    0x0003dc24     0x2095 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
+ .debug_info    0x0003fcb9     0x23a8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
+ .debug_info    0x00042061     0x37d4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+ .debug_info    0x00045835     0x1170 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
+ .debug_info    0x000469a5     0x1409 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
+ .debug_info    0x00047dae      0x61e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
+ .debug_info    0x000483cc       0xe9 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start.S.o
+ .debug_info    0x000484b5      0x176 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start_c.c.o
+ .debug_info    0x0004862b      0x5cd C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
+ .debug_info    0x00048bf8     0x29ea C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+ .debug_info    0x0004b5e2     0x258c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+ .debug_info    0x0004db6e      0x526 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(cxxabi-compat.cpp.o)
+ .debug_info    0x0004e094      0x79a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
+ .debug_info    0x0004e82e      0xe4a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
+ .debug_info    0x0004f678      0x6f7 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma.c.o)
+ .debug_info    0x0004fd6f     0x18b1 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+ .debug_info    0x00051620       0xcb C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exc.S.o)
+ .debug_info    0x000516eb      0xd3c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti.c.o)
+ .debug_info    0x00052427      0x213 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti_f1.c.o)
+ .debug_info    0x0005263a      0x128 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(flash.c.o)
+ .debug_info    0x00052762      0x715 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio_f1.c.o)
+ .debug_info    0x00052e77      0xc25 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c_f1.c.o)
+ .debug_info    0x00053a9c      0x5a2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(nvic.c.o)
+ .debug_info    0x0005403e      0x556 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc.c.o)
+ .debug_info    0x00054594      0xb64 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc_f1.c.o)
+ .debug_info    0x000550f8      0xa88 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi.c.o)
+ .debug_info    0x00055b80      0x794 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi_f1.c.o)
+ .debug_info    0x00056314       0xe0 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(isrs.S.o)
+ .debug_info    0x000563f4      0x182 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(systick.c.o)
+ .debug_info    0x00056576     0x197d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(timer.c.o)
+ .debug_info    0x00057ef3      0xc32 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart.c.o)
+ .debug_info    0x00058b25      0xb89 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_f1.c.o)
+ .debug_info    0x000596ae      0x595 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_private.c.o)
+ .debug_info    0x00059c43      0xd16 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb.c.o)
+ .debug_info    0x0005a959     0x22d2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_cdcacm.c.o)
+ .debug_info    0x0005cc2b      0x26c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_reg_map.c.o)
+ .debug_info    0x0005ce97      0xddf C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_core.c.o)
+ .debug_info    0x0005dc76      0x3ed C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_init.c.o)
+ .debug_info    0x0005e063      0x183 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_mem.c.o)
+ .debug_info    0x0005e1e6      0xc88 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_regs.c.o)
+ .debug_info    0x0005ee6e      0xad2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(util.c.o)
+ .debug_info    0x0005f940       0x99 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(main.cpp.o)
+ .debug_info    0x0005f9d9      0x1a1 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(new.cpp.o)
+ .debug_info    0x0005fb7a      0xc8a C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital_f1.cpp.o)
+ .debug_info    0x00060804      0xb0b C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital.cpp.o)
+ .debug_info    0x0006130f      0x20c C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_math.cpp.o)
+ .debug_info    0x0006151b      0xca9 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_shift.cpp.o)
+ .debug_info    0x000621c4      0x2be C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_time.cpp.o)
+ .debug_info    0x00062482       0x33 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(hooks.c.o)
+ .debug_info    0x000624b5      0x313 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio.c.o)
+ .debug_info    0x000627c8     0x1ad2 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c.c.o)
 
 .debug_abbrev   0x00000000     0xd04f
  *(.debug_abbrev)
@@ -2634,81 +2633,81 @@ END GROUP
  .debug_abbrev  0x0000cb0f      0x113 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio.c.o)
  .debug_abbrev  0x0000cc22      0x42d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c.c.o)
 
-.debug_line     0x00000000    0x14cd9
+.debug_line     0x00000000    0x14cda
  *(.debug_line)
- .debug_line    0x00000000      0x89a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
- .debug_line    0x0000089a      0x899 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
- .debug_line    0x00001133      0x91a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_PZone.cpp.o
- .debug_line    0x00001a4d      0x784 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola.cpp.o
- .debug_line    0x000021d1      0x537 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Blinds.cpp.o
- .debug_line    0x00002708      0x510 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Close.cpp.o
- .debug_line    0x00002c18      0x5d6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Diag.cpp.o
- .debug_line    0x000031ee      0x57e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Dissolve.cpp.o
- .debug_line    0x0000376c      0x4f7 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Fade.cpp.o
- .debug_line    0x00003c63      0x567 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Grow.cpp.o
- .debug_line    0x000041ca      0x58b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_HScroll.cpp.o
- .debug_line    0x00004755      0x582 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Mesh.cpp.o
- .debug_line    0x00004cd7      0x50a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Open.cpp.o
- .debug_line    0x000051e1      0x514 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Print.cpp.o
- .debug_line    0x000056f5      0x548 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Random.cpp.o
- .debug_line    0x00005c3d      0x59b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Scan.cpp.o
- .debug_line    0x000061d8      0x576 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Slice.cpp.o
- .debug_line    0x0000674e      0x530 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Sprite.cpp.o
- .debug_line    0x00006c7e      0x555 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_VScroll.cpp.o
- .debug_line    0x000071d3      0x50e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Wipe.cpp.o
- .debug_line    0x000076e1      0x7a4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
- .debug_line    0x00007e85      0x7a2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_buf.cpp.o
- .debug_line    0x00008627      0x59f C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
- .debug_line    0x00008bc6      0x7b8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
- .debug_line    0x0000937e      0xcea C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
- .debug_line    0x0000a068      0x469 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
- .debug_line    0x0000a4d1      0x4c7 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
- .debug_line    0x0000a998      0x3ba C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
- .debug_line    0x0000ad52       0xb0 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start.S.o
- .debug_line    0x0000ae02       0xc1 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start_c.c.o
- .debug_line    0x0000aec3      0x306 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
- .debug_line    0x0000b1c9      0x55d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
- .debug_line    0x0000b726      0x5ca C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
- .debug_line    0x0000bcf0      0x26d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(cxxabi-compat.cpp.o)
- .debug_line    0x0000bf5d      0x345 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
- .debug_line    0x0000c2a2      0x3f1 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
- .debug_line    0x0000c693      0x392 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma.c.o)
- .debug_line    0x0000ca25      0x677 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
- .debug_line    0x0000d09c       0xb8 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exc.S.o)
- .debug_line    0x0000d154      0x41e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti.c.o)
- .debug_line    0x0000d572      0x348 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti_f1.c.o)
- .debug_line    0x0000d8ba      0x2c7 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(flash.c.o)
- .debug_line    0x0000db81      0x370 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio_f1.c.o)
- .debug_line    0x0000def1      0x455 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c_f1.c.o)
- .debug_line    0x0000e346      0x32f C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(nvic.c.o)
- .debug_line    0x0000e675      0x3c9 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc.c.o)
- .debug_line    0x0000ea3e      0x416 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc_f1.c.o)
- .debug_line    0x0000ee54      0x400 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi.c.o)
- .debug_line    0x0000f254      0x313 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi_f1.c.o)
- .debug_line    0x0000f567       0xb5 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(isrs.S.o)
- .debug_line    0x0000f61c      0x298 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(systick.c.o)
- .debug_line    0x0000f8b4      0x629 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(timer.c.o)
- .debug_line    0x0000fedd      0x45d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart.c.o)
- .debug_line    0x0001033a      0x466 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_f1.c.o)
- .debug_line    0x000107a0      0x303 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_private.c.o)
- .debug_line    0x00010aa3      0x53d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb.c.o)
- .debug_line    0x00010fe0      0x947 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_cdcacm.c.o)
- .debug_line    0x00011927      0x2fa C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_reg_map.c.o)
- .debug_line    0x00011c21      0x433 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_core.c.o)
- .debug_line    0x00012054      0x148 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_init.c.o)
- .debug_line    0x0001219c      0x182 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_mem.c.o)
- .debug_line    0x0001231e      0x5ac C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_regs.c.o)
- .debug_line    0x000128ca      0x3cb C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(util.c.o)
- .debug_line    0x00012c95       0xb0 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(main.cpp.o)
- .debug_line    0x00012d45      0x1d6 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(new.cpp.o)
- .debug_line    0x00012f1b      0x3f6 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital_f1.cpp.o)
- .debug_line    0x00013311      0x379 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital.cpp.o)
- .debug_line    0x0001368a      0x204 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_math.cpp.o)
- .debug_line    0x0001388e      0x44e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_shift.cpp.o)
- .debug_line    0x00013cdc      0x360 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_time.cpp.o)
- .debug_line    0x0001403c       0x99 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(hooks.c.o)
- .debug_line    0x000140d5      0x2ec C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio.c.o)
- .debug_line    0x000143c1      0x918 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c.c.o)
+ .debug_line    0x00000000      0x89b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\sketch\Cafetera.ino.cpp.o
+ .debug_line    0x0000089b      0x899 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\LiquidCrystal\LiquidCrystal.cpp.o
+ .debug_line    0x00001134      0x91a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_PZone.cpp.o
+ .debug_line    0x00001a4e      0x784 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola.cpp.o
+ .debug_line    0x000021d2      0x537 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Blinds.cpp.o
+ .debug_line    0x00002709      0x510 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Close.cpp.o
+ .debug_line    0x00002c19      0x5d6 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Diag.cpp.o
+ .debug_line    0x000031ef      0x57e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Dissolve.cpp.o
+ .debug_line    0x0000376d      0x4f7 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Fade.cpp.o
+ .debug_line    0x00003c64      0x567 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Grow.cpp.o
+ .debug_line    0x000041cb      0x58b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_HScroll.cpp.o
+ .debug_line    0x00004756      0x582 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Mesh.cpp.o
+ .debug_line    0x00004cd8      0x50a C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Open.cpp.o
+ .debug_line    0x000051e2      0x514 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Print.cpp.o
+ .debug_line    0x000056f6      0x548 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Random.cpp.o
+ .debug_line    0x00005c3e      0x59b C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Scan.cpp.o
+ .debug_line    0x000061d9      0x576 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Slice.cpp.o
+ .debug_line    0x0000674f      0x530 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Sprite.cpp.o
+ .debug_line    0x00006c7f      0x555 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_VScroll.cpp.o
+ .debug_line    0x000071d4      0x50e C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_Parola\MD_Parola_Wipe.cpp.o
+ .debug_line    0x000076e2      0x7a4 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx.cpp.o
+ .debug_line    0x00007e86      0x7a2 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_buf.cpp.o
+ .debug_line    0x00008628      0x59f C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_font.cpp.o
+ .debug_line    0x00008bc7      0x7b8 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\MD_MAX72XX\MD_MAX72xx_pix.cpp.o
+ .debug_line    0x0000937f      0xcea C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\libraries\SPI\SPI.cpp.o
+ .debug_line    0x0000a069      0x469 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\board.cpp.o
+ .debug_line    0x0000a4d2      0x4c7 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards.cpp.o
+ .debug_line    0x0000a999      0x3ba C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\boards_setup.cpp.o
+ .debug_line    0x0000ad53       0xb0 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start.S.o
+ .debug_line    0x0000ae03       0xc1 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\start_c.c.o
+ .debug_line    0x0000aec4      0x306 C:\Users\dalex\AppData\Local\arduino\sketches\059C72163B544ABDC6D6787E70D3EFDB\core\wirish\syscalls.c.o
+ .debug_line    0x0000b1ca      0x55d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(HardwareSerial.cpp.o)
+ .debug_line    0x0000b727      0x5ca C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(Print.cpp.o)
+ .debug_line    0x0000bcf1      0x26d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(cxxabi-compat.cpp.o)
+ .debug_line    0x0000bf5e      0x345 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc.c.o)
+ .debug_line    0x0000c2a3      0x3f1 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(adc_f1.c.o)
+ .debug_line    0x0000c694      0x392 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma.c.o)
+ .debug_line    0x0000ca26      0x677 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(dma_f1.c.o)
+ .debug_line    0x0000d09d       0xb8 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exc.S.o)
+ .debug_line    0x0000d155      0x41e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti.c.o)
+ .debug_line    0x0000d573      0x348 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(exti_f1.c.o)
+ .debug_line    0x0000d8bb      0x2c7 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(flash.c.o)
+ .debug_line    0x0000db82      0x370 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio_f1.c.o)
+ .debug_line    0x0000def2      0x455 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c_f1.c.o)
+ .debug_line    0x0000e347      0x32f C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(nvic.c.o)
+ .debug_line    0x0000e676      0x3c9 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc.c.o)
+ .debug_line    0x0000ea3f      0x416 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(rcc_f1.c.o)
+ .debug_line    0x0000ee55      0x400 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi.c.o)
+ .debug_line    0x0000f255      0x313 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(spi_f1.c.o)
+ .debug_line    0x0000f568       0xb5 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(isrs.S.o)
+ .debug_line    0x0000f61d      0x298 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(systick.c.o)
+ .debug_line    0x0000f8b5      0x629 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(timer.c.o)
+ .debug_line    0x0000fede      0x45d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart.c.o)
+ .debug_line    0x0001033b      0x466 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_f1.c.o)
+ .debug_line    0x000107a1      0x303 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usart_private.c.o)
+ .debug_line    0x00010aa4      0x53d C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb.c.o)
+ .debug_line    0x00010fe1      0x947 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_cdcacm.c.o)
+ .debug_line    0x00011928      0x2fa C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_reg_map.c.o)
+ .debug_line    0x00011c22      0x433 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_core.c.o)
+ .debug_line    0x00012055      0x148 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_init.c.o)
+ .debug_line    0x0001219d      0x182 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_mem.c.o)
+ .debug_line    0x0001231f      0x5ac C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(usb_regs.c.o)
+ .debug_line    0x000128cb      0x3cb C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(util.c.o)
+ .debug_line    0x00012c96       0xb0 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(main.cpp.o)
+ .debug_line    0x00012d46      0x1d6 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(new.cpp.o)
+ .debug_line    0x00012f1c      0x3f6 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital_f1.cpp.o)
+ .debug_line    0x00013312      0x379 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_digital.cpp.o)
+ .debug_line    0x0001368b      0x204 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_math.cpp.o)
+ .debug_line    0x0001388f      0x44e C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_shift.cpp.o)
+ .debug_line    0x00013cdd      0x360 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(wirish_time.cpp.o)
+ .debug_line    0x0001403d       0x99 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(hooks.c.o)
+ .debug_line    0x000140d6      0x2ec C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(gpio.c.o)
+ .debug_line    0x000143c2      0x918 C:\Users\dalex\AppData\Local\arduino\cores\65f3c8272c88b8acb16a1f86b70060c0\core.a(i2c.c.o)
 
 .debug_frame    0x00000000     0x3964
  *(.debug_frame)
