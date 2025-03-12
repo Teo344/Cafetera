@@ -2,6 +2,7 @@
 #include <MD_Parola.h>
 #include <MD_MAX72xx.h>
 #include <SPI.h>
+#include <L293.h>
 
 // Definición de pines para la LCD
 #define LCD_RS PC0
@@ -20,6 +21,12 @@
 #define CS_PIN PA4
 //Para el Agua
 #define CS_PIN_2 PB4
+//Para el motor
+#define SPEED_PIN PB5      // PWM para controlar la velocidad
+#define FORWARD_PIN PB6    // Dirección hacia adelante
+#define REVERSE_PIN PB7    // Dirección hacia atrás
+
+L293 motor(SPEED_PIN, FORWARD_PIN, REVERSE_PIN);
 
 // Inicialización de la matriz LED y la LCD
 MD_MAX72XX matrixAzucar = MD_MAX72XX(HARDWARE_TYPE, CS_PIN, MAX_DEVICES);
@@ -67,7 +74,6 @@ void setup() {
   pinMode(SWITCH_RECARGA, INPUT_PULLUP);
   pinMode(BUTTON_RECARGA_AZUCAR, INPUT);
   pinMode(BUTTON_REGRESO, INPUT_PULLUP);
-
 
   //Configurar matriz de leds
   actualizarNivel();
@@ -228,8 +234,14 @@ void prepararCafeReal() {
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("Preparando... ");
+  
+   // Encender el motor
+  motor.forward(255);  // Máxima velocidad
 
   delay(2000);  // Simula el proceso de preparación
+
+  // Apagar el motor
+  detenerMotor();
 
   nivelAzucar -= cantidadAzucarElegida;
   nivelAgua -= aguaNecesaria;
@@ -333,4 +345,12 @@ void actualizarNivel() {
     }
   }
   matrixAgua.update();  // Refrescar la pantalla
+}
+
+
+void detenerMotor() {
+    motor.stop();   // Intenta detener el motor
+    analogWrite(SPEED_PIN, 0);  // Asegura que el PWM sea 0 (Apagar velocidad)
+    digitalWrite(FORWARD_PIN, LOW);  // Apagar dirección adelante
+    digitalWrite(REVERSE_PIN, LOW);  // Apagar dirección atrás
 }
